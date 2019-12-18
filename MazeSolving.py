@@ -281,6 +281,5 @@ class Maze:
 
     # finally we show our shortest path with green dot
     def astar_path_show(self):
-        astar_path = self.astar_path
-        for item in astar_path:
+        for item in self.astar_path:
             self.Pos_Update(item[0], item[1], record_path)
